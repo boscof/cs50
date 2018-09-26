@@ -1,0 +1,12 @@
+0.  It is the longest word in the dictionary (large). Hence, why length is defined as 45.
+1.  getrusage returns resource usages measures to measure the efficiency of the program.
+2.  16
+3.  Because structs are passed by reference instead of by value. Otherwise, they would be too big.
+4.  The for loop in speller.c works by reading each character in a given file and adding those that form words to an array
+    called word. Words containing numbers and too many characters are omitted, while the rest of the characters are assumed to be 
+    words. Every time a new word is added to the array, the word counter updates. The program then checks to see if the words are 
+    correctly spelt by calling on a function called misspelled and recording the time it takes for the code to run. If the word is 
+    misspelt, the code prints the misspelt word and increases the counter for the number of misspelt words by one.
+5.  fgetc allows for more control over which characters are read. Reading each word by string may introduce problems
+    when there are numbers or special characters contained within the string.
+6.  To ensure that none of the words within the files and dictonaries that are loaded will be altered.

@@ -1,0 +1,15 @@
+1.  stdint.h is a header file that assigns alternative names to specific data types.
+2.  "unit8_t", "unit16_t" and "unit32_t" are unsigned 8-bit, 16-bit or 32-bit integer types while "int32_t" is a signed 32-bit integer type. 
+    These data types limit the range of numeric values that a specified input or output in a program can assume.
+3.  1 byte, 4 byte, 4 byte and 2 bytes respectively.
+4.  hexadecimal
+5.  bfsize is the size of the bitmap file while bisize is the size of the BITMAPINFOHEADER struct
+6.  If biheight is negative it means that the bitmap is stored such that the top row of the image is stored first and the bottom row is stored last.
+7.  biBitCount
+8.  If the file cannot be found or opened, fopen will return NULL
+9.  Because you want the code to return the part that has been read as one element
+10. 3
+11. sets the file position to the given offset so the program skips over the padding.
+12. sets the offset to be relative to the current position indicator within the file.
+ 
+

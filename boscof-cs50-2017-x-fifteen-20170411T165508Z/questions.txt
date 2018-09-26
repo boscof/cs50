@@ -1,0 +1,4 @@
+0. The game allows the height and width to be any integer between 3 and 9 so long as the height and width of the board are equal.
+1. It's an array 
+2. greet
+3. init, draw, move, won
